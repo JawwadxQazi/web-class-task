@@ -1,0 +1,55 @@
+
+div{
+    background-color: rgb(253, 253, 253);
+    height: 60px;
+    padding: 10px;
+}
+img, li{
+    display: inline-block;
+}
+img{
+    height: 60px;
+    width: 100px;
+    float: left;
+    margin: 10px 0px 10px 0px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+ul{
+    float: right;
+    margin-right: 50px ;
+}
+.TEXT{
+      font-weight: bold;
+      font-size: 100px;
+}
+.PNG{
+    
+    display: inline block;
+    width: 600px;
+    height: 600px;
+}
+
+
+
+@media screen and (max-width :600px) {
+
+    ul, ul .contactbtn{
+        display: none;
+    }
+    .dots{
+        display: inline-block;
+        color: white;
+        float: right; 
+        margin-right: 5px;
+    }
+    div{
+        height: 50px;
+    }
+}
